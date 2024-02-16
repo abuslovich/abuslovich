@@ -1,0 +1,121 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:abuslovich.github.io:abuslovich:Test1",
+    "verificationMethod": [
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-2",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        }
+    ],
+    "publicKey": [
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:Test1#key-2",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:Test1",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:example.com#key-0",
+        "did:web:example.com#key-2"
+    ],
+    "assertionMethod": [
+        "did:web:example.com#key-0",
+        "did:web:example.com#key-2"
+    ],
+    "keyAgreement": [
+        "did:web:example.com#key-1",
+        "did:web:example.com#key-2"
+    ],
+    "service": [
+        {
+            "id": "#issuer-13",
+            "type": "VlcCareerIssuer_v1",
+            "serviceEndpoint": "https://www.abchealth.com"
+        },
+        {
+            "id": "#issuer-11",
+            "type": "VlcCareerIssuer_v1",
+            "serviceEndpoint": "https://www.abchealth.com"
+        },
+        {
+            "id": "#issuer-15",
+            "type": "VlcCareerIssuer_v1",
+            "serviceEndpoint": "https://www.abchealth.com"
+        },
+        {
+            "id": "#issuer-17",
+            "type": "VlcCareerIssuer_v1",
+            "serviceEndpoint": "https://www.abchealth.com"
+        },
+        {
+            "type": "VlcCredentialAgentOperator_v1",
+            "id": "#cao_saas",
+            "serviceEndpoint": "https://www.abchealth.com"
+        },
+        {
+            "type": "VlcCredentialAgentOperator_v1",
+            "id": "#cao_saas-1",
+            "serviceEndpoint": "https://www.abchealth.com"
+        }
+    ]
+}
