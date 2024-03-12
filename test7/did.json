@@ -1,0 +1,121 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:abuslovich.github.io:abuslovich:test7",
+    "verificationMethod": [
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-2",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        }
+    ],
+    "publicKey": [
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        },
+        {
+            "id": "did:web:abuslovich.github.io:abuslovich:test7#key-2",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:abuslovich.github.io:abuslovich:test7",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:example.com#key-0",
+        "did:web:example.com#key-2"
+    ],
+    "assertionMethod": [
+        "did:web:example.com#key-0",
+        "did:web:example.com#key-2"
+    ],
+    "keyAgreement": [
+        "did:web:example.com#key-1",
+        "did:web:example.com#key-2"
+    ],
+    "service": [
+        {
+            "id": "#vlc-inspector-1",
+            "type": "VlcInspector_v1",
+            "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
+        },
+        {
+            "id": "#vlc-inspector-2",
+            "type": "VlcInspector_v1",
+            "serviceEndpoint": "did:ion:EiDvvwpTX7aLLcKytWOu_7FjbRuQk3OWUvJfPT8NFMG08Q#vlc-cao-1"
+        },
+        {
+            "id": "#vlc-issuer-1",
+            "type": "VlcCareerIssuer_v1",
+            "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
+        },
+        {
+            "id": "#vlc-node-1",
+            "type": "VlcNodeOperator_v1",
+            "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
+        },
+        {
+            "type": "VlcCredentialAgentOperator_v1",
+            "id": "#vlc-cao-1",
+            "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
+        },
+        {
+            "type": "VlcHolderAppProvider_v1",
+            "id": "#vlc-app-provider-1",
+            "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
+        }
+    ]
+}
