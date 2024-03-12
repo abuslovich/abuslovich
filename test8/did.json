@@ -46,8 +46,8 @@
             "controller": "did:web:abuslovich.github.io:abuslovich:test8",
             "publicKeyJwk": {
                 "kty": "EC",
-                "x": "wQe1_DrvEWvKT7WspAid7XhwAz_4attoFaxcbVFWq08",
-                "y": "hQDhmGXUHr8yA1U4_BUICXU6-HRqFAZXeawg4elUTa0",
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
                 "crv": "secp256k1"
             }
         },
@@ -57,9 +57,9 @@
             "controller": "did:web:abuslovich.github.io:abuslovich:test8",
             "publicKeyJwk": {
                 "kty": "EC",
-                "crv": "secp256k1",
-                "y": "Cl9s8_zmYLcUYneQQN7dL9XQnOZ2eTdLUdSHbKbCLEg",
-                "x": "EBQZ4V6R1vGIu6pzYqOKmCK8-XlM3muvq5F_ePU-pPg"
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
             }
         },
         {
@@ -68,9 +68,9 @@
             "controller": "did:web:abuslovich.github.io:abuslovich:test8",
             "publicKeyJwk": {
                 "kty": "EC",
-                "crv": "secp256k1",
-                "y": "1U2jp7WK5hSo0zXmtUYbDI_VzMKU2DYbiqPU3P7rL6c",
-                "x": "7xRV1Z0zRSZJD5dJerojK_qVK8SQgc3JcsnN4ya_doE"
+                "x": "OdFnNJvwWiHX1wVVQChNgl5mvbTs9oADufJhhcOEkR8",
+                "y": "gfX0f7FDHAQi90qtzGQ7SyXoYNAzQF3y0--oIKG2I5s",
+                "crv": "secp256k1"
             }
         }
     ],
