@@ -93,11 +93,6 @@
             "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
         },
         {
-            "id": "#vlc-inspector-2",
-            "type": "VlcInspector_v1",
-            "serviceEndpoint": "did:ion:EiDvvwpTX7aLLcKytWOu_7FjbRuQk3OWUvJfPT8NFMG08Q#vlc-cao-1"
-        },
-        {
             "id": "#vlc-issuer-1",
             "type": "VlcCareerIssuer_v1",
             "serviceEndpoint": "https://qaagent.velocitycareerlabs.io"
